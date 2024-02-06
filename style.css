@@ -20,7 +20,6 @@ main{
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-   
     padding: 10px 15px;
     background-color: aqua;
   }
@@ -37,4 +36,16 @@ table, th, td {
  }
  h1{
    color: brown;
+ }
+a:link:hover{
+  color: rgb(12, 114, 193);
+  font-size: 20px;
+ }
+ a:visited:hover{
+  color: rgb(31, 3, 170);
+  font-size: 20px;
+ }
+ a:active:hover{
+  color: rgb(6, 138, 31);
+  font-size: 20px;
  }
