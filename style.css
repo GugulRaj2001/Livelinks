@@ -37,7 +37,7 @@ table, th, td {
  h1{
    color: brown;
  }
-a:link:hover{
+ a:link:hover{
   color: rgb(12, 114, 193);
   font-size: 20px;
  }
