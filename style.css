@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -9,6 +9,7 @@ header{
   justify-content: center;
   align-items: center;
   text-align: center;
+   
 }
 main{
   padding: 1px;
@@ -16,36 +17,43 @@ main{
   justify-content: center;
   align-items: center;
   text-align: center;
+   
+}
+table{
+  background-image: linear-gradient(red, yellow, gray);
 }
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px 15px;
-    background-color: aqua;
+    border: 3px solid white;
+    margin: 12px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+     
   }
  td{
     text-align: center;
     
  }
+ a{
+  color: white;
+ }
  td a{
+  color: #000;
    text-decoration: none;
+   font-size: 20px;
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 5px;
    
  }
- main{
-   width: 100%;
- }
+  
  h1{
-   color: brown;
+   color: rgb(203, 226, 71);
  }
  a:link:hover{
-  color: rgb(12, 114, 193);
-  font-size: 20px;
+   
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
  }
- a:visited:hover{
-  color: rgb(31, 3, 170);
-  font-size: 20px;
- }
- a:active:hover{
-  color: rgb(6, 138, 31);
-  font-size: 20px;
- }
+  
